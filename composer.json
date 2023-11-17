@@ -17,5 +17,11 @@
         {
             "name": "Sebastien COURJEAN"
         }
-    ]
+    ],
+    "scripts": {
+        "php82-check": "vendor/bin/phpstan analyze -c ci/phpstan/php82-compatibility.neon",
+        "php83-check": "vendor/bin/phpstan analyze -c ci/phpstan/php83-compatibility.neon",
+        "rector-check": "vendor/bin/rector process -c ci/rector/rector.php --dry-run",
+        "rector-fix": "vendor/bin/rector process -c ci/rector/rector.php"
+    }
 }
