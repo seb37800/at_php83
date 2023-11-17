@@ -1,0 +1,21 @@
+{
+    "name": "afup_tours/at_php83",
+    "type": "project",
+    "require": {
+        "php": "8.2.*"
+    },
+    "require-dev": {
+        "rector/rector": "^0.18.10",
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "AfupTours\\AtPhp83\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sebastien COURJEAN"
+        }
+    ]
+}
