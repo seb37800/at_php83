@@ -2,7 +2,7 @@
     "name": "afup_tours/at_php83",
     "type": "project",
     "require": {
-        "php": "8.2.*"
+        "php": "8.2.*||8.3.*"
     },
     "require-dev": {
         "rector/rector": "^0.18.10",
